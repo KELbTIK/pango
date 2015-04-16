@@ -2173,4 +2173,12 @@ body{
     .parking-icon-descr.bounceInRight{
         margin-bottom: 20px;
     }
+    .locations{
+        margin-bottom: 59px;
+    }
+    .item-type{
+        font-size: 14px;
+        padding: 5px;
+        height: 85px;
+    }
 }

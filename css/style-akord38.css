@@ -608,8 +608,10 @@
     font-family: 'source_sans_problack_italic', 'Open Sans';
     color:#f06b1e;
     line-height: 45px;
-    margin-left: 20px;
     margin-bottom: 26px;
+    max-width: 690px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .slidenewsroom .container-fluid  span{
@@ -996,12 +998,12 @@
         color: #fff;
     }
     .slider-top p {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 14px;
+        line-height: 1.5;
     }
     .slider-top p+p {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 14px;
+        line-height: 1.5;
     }
     .buttonslid {
         display: inline-block;
@@ -1154,18 +1156,18 @@
         font-size: 30px;
     }
     #map-canvas {
-        height: 450px;
+        height: 300px;
     }
     .vision .icon {
         width: 150px;
-        height: 150px;
+        height: 100px;
         background-size: 150px auto;
         padding-top: 11px;
         padding-right: 9px;
     }
     .partner-bottom-text {
-        font-size: 18px;
-        padding: 10px 0 56px;
+        font-size: 14px;
+        padding: 50px 0 56px;
     }
     .icon-vision {
         font-size: 24px;
@@ -1224,5 +1226,7 @@
         margin-top: 46px;
         padding-bottom: 110px;
     }
-
+    .slider-1, .slider-2, .slider-3, .slider-4{
+        height: 450px!important;
+    }
 }
