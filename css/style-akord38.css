@@ -10,7 +10,7 @@
     position:relative;
     top:200px;
     font-size: 53px;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
     color:#fff;
 }
 .how-works-list{
@@ -43,7 +43,7 @@
 .how-works-list .container h2 {
     font-size:35px;
     margin-top: 0;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
     color:#f06b1e;
     margin-bottom: 0px;
     line-height: 1;
@@ -202,7 +202,7 @@
 .how-works-list .container span {
     font-size:28px;
     color:#24408e;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .how-works-list .container .col-xs-6 img {
@@ -223,7 +223,7 @@
 .not-only-parking h1{
     color:#fff;
     font-size:53px;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
     margin-top: 10px;
 }
 
@@ -243,7 +243,7 @@
 .smart-payment p+span{
     font-size: 28px;
     line-height: 40px;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
     color:#fff;
 }
 
@@ -277,7 +277,7 @@
 }
 
 .more-features h1{
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
     color:#f06b1e;
     font-size:53px;
 }
@@ -287,14 +287,14 @@
 }
 .more-features .container h2{
     font-size:35px;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
     color:#f06b1e;
     margin-top: 50px;
 }
 .more-features .container span {
     font-size:28px;
     color:#24408e;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .more-features .container p {
     font-size:18px;
@@ -321,7 +321,7 @@
 }
 .pangocar .container h2{
     font-size:35px;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
     color:#f06b1e;
 }
 .pangocar .container p{
@@ -339,7 +339,7 @@
 }
 .pangocs .container h2{
     font-size:35px;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
     color:#f06b1e;
 }
 .pangocs .container p{
@@ -358,7 +358,7 @@
 }
 .easyentrance .container h2{
     font-size:35px;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
     color:#f06b1e;
     margin-top:45px;
 }
@@ -373,7 +373,7 @@
 .easyentrance .container span {
     font-size:28px;
     color:#24408e;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .easyentrance>img{
     position: absolute;
@@ -424,7 +424,7 @@
 .slider-top h1{
     font-size: 35px;
     line-height:45px;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
 }
  .slider-top p{
     font-size: 22px;
@@ -438,7 +438,7 @@
 
   .slider-news-room .container h1{
     font-size:35px;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
     color:#f06b1e;
       line-height: 45px;
        margin-bottom:40px;
@@ -446,7 +446,7 @@
 .slider-news-room .container span{
     font-size: 28px;
     color: #24408e;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .slider-news-room .container p{
@@ -605,7 +605,7 @@
 
 .slidenewsroom  h1{
     font-size:35px;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
     color:#f06b1e;
     line-height: 45px;
     margin-bottom: 26px;
@@ -617,7 +617,7 @@
 .slidenewsroom .container-fluid  span{
     font-size: 28px;
     color: #24408e;
-    font-family: 'source_sans_problack_italic', 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
