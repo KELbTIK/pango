@@ -1224,5 +1224,16 @@
         margin-top: 46px;
         padding-bottom: 110px;
     }
-
+    .icon-light {
+        background-position: 0px -141px;
+    }
+    .icon-lots {
+        background-position: 0px -198px;
+    }
+    .icon-off {
+        background-position: 0px -169px;
+    }
+    .icon-shop {
+        background-position: 0px -226px;
+    }
 }
