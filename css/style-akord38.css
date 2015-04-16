@@ -847,7 +847,7 @@
     }
 
     .how-works-list .container h2 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .how-works-list .container .correct-font-size {
@@ -855,11 +855,11 @@
     }
 
     .how-works-list .container span {
-        font-size: 23px !important;
+        font-size: 20px !important;
     }
 
     .how-works-list .container .correct-list {
-        font-size: 18px;
+        font-size: 16px;
         top: -50px;
         padding-right: 5px;
     }
@@ -869,7 +869,7 @@
     }
 
     .how-works-list .container ul {
-        font-size: 18px;
+        font-size: 16px;
         padding-right: 20px;
     }
 
@@ -892,7 +892,7 @@
     }
 
     .more-features p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .more-features .more-features-animation .container {
@@ -916,7 +916,7 @@
     }
 
     .more-features .more-features-animation .container .col-sm-6 p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .more-features .container h2 {
@@ -937,7 +937,7 @@
     }
 
     .pangocar .container .col-sm-6 p {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 10px;
     }
 
@@ -956,7 +956,7 @@
     }
 
     .pangocs .container .col-sm-6 p {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 10px;
     }
 
@@ -981,7 +981,7 @@
     }
 
     .easyentrance .container .col-sm-6 p {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 15px;
     }
     .easyentrance .container img {
@@ -1242,5 +1242,26 @@
     .slider-1, .slider-2, .slider-3, .slider-4{
         height: 450px!important;
 
+    }
+    .collapse-content {
+        font-size: 14px;
+    }
+    .icon-hospital {
+        background-position: 0px -254px;
+    }
+    .icon-university {
+        background-position: 0px -283px;
+    }
+    .icon-plane {
+        background-position: 0px -310px;
+    }
+    .icon-valet {
+        background-position: 0px -339px;
+    }
+    .icon-event {
+        background-position: 0px -368px;
+    }
+    .icon-parking {
+        background-position: 0px -395px;
     }
 }
