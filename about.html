@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="bootstrap-3.3.4/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style-akord38.css"/>
+    <!-------------fonts-------->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Alef' rel='stylesheet' type='text/css'>
+    <!-------------------------->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.4/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script>
+        var map;
+        function initialize() {
+            var mapOptions = {
+                zoom: 8,
+                center: new google.maps.LatLng(-34.397, 150.644)
+            };
+            map = new google.maps.Map(document.getElementById('map-canvas'),
+                    mapOptions);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+
+
+</head>
+<body>
+    <div class="page-wrap">
+        <nav class="navbar navbar-default navbar-fixed-top main-navbar">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu-navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#"><img class="img-responsive" src="img/logo.png" alt=""/></a>
+                        </div>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="col-sm-8 text-right">
+                        <div class="row">
+                            <div class="collapse navbar-collapse " id="main-menu-navbar">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="#">Municipal parking</a></li>
+                                    <li><a href="#">Private parking</a></li>
+                                    <li><a href="#">Become a partner</a></li>
+                                    <li><a href="#">Showcase</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">About Pango</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="about-top-banner">
+            <div class="partner-text">
+                <img class="img-responsive center-block img-not-scale" src="img/logo-banner.png" alt=""/>
+                <h5 class="text-center">Beyond Mobile Parking</h5>
+            </div>
+        </div>
+        <div class="partner-bottom-text blue-gradient ellipse">
+            <div class="container">
+                <div class="col-sm-6">
+                    Pioneering business leaders are partnering with Pango to implement our technology-driven smart parking ecosystem in new markets. We seek capable partners to join us in delivering a comprehensive business ecosystem revolutionizing the mobile parking space with cutting edge technology, enormous revenue potential and unparalleled value for customers.
+                </div>
+                <div class="col-sm-6">
+                    Pango provides its robust technology and global expertise to support partners in the establishment and growth of local operations, marketing and deployment.
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="locations">
+            <h2 class="text-center">Locations</h2>
+            <div id="map-canvas"></div>
+        </div>
+        <div class="vision fadeInUp reveal">
+            <div class="container">
+                <i class="icon icon-vision text-center">
+                    <span>Pango's</span><br/>VISION
+                </i>
+                <p class="text-center">
+                    Being the preferred mobile choice by connecting Cars, Drivers and Businesses with Smart Arrival and parking payment experience, offering local knowledge and personalized services.
+                </p>
+                <div class="col-sm-6 col-sm-offset-3"><div class="vision-delimetr"></div></div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="team green-gradient">
+            <div class="container">
+                <h1 class="text-center">The Team</h1>
+                <div class="col-sm-6 fadeInLeft reveal">
+                    <div class="member">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Zion Harel</h4>
+                        <div class="who">Chief Executive Officer</div>
+                    </div>
+                    <div class="text-descr">
+                        Zion has served as the CEO of Pango since 2008, leading corporate strategy and international business growth. He has over 25 years of international experience managing technology companies from early stage to product development and global sales. Zion spent six years in the USA as one of the founders and VP of Operations at Tefen USA (TASE: TEFEN), an international consulting firm for IT and management solutions. In addition, he has held senior positions at Fundtech Ltd. (NASDAQ: FNDT) and ESI, a Formula Vision company (NASDAQ: FORTY).  Zion holds a B.Sc. in Industrial Engineering and Management from Ben-Gurion University.
+                    </div>
+                </div>
+                <div class="col-sm-6  fadeInRight reveal">
+                    <div class="member">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Naji Sourani</h4>
+                        <div class="who">Chief Executive Officer</div>
+                    </div>
+                    <div class="text-descr">
+                        Naji brings over 20 years of experience in software design, implementation and project management to Pango’s innovative technology development. As the leader of Pango’s R&D team, he has directed the development, implementation and deployment of the Pango platform around the world since 2006. Naji obtains unique expertise in security payment systems (PCIDSS1) and previously served as VP R&D at Emblaze-VCON.  Naji holds a B.Sc. in Electronics Engineering from Ben-Gurion University.
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="border-delimetr"></div>
+                <div class="col-sm-6  fadeInLeft reveal">
+                    <div class="member">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Neil Edwards</h4>
+                        <div class="who">President, Pango USA</div>
+                    </div>
+                    <div class="text-descr">
+                        Sector experience operating mobile-Internet companies in the US, Europe, China and Korea. He led the creation of successful brands for social gaming & virtual goods, mobile, Internet, SAAS, and software companies. Past positions include Manager at Equis Ventures and CEO of Cellufun and DOTMOBI. Neil holds a BA in Mathematics from The Citadel and an MBA from Duke University.
+                    </div>
+                </div>
+                <div class="col-sm-6  fadeInRight reveal">
+                    <div class="member">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Maoz Tenenbaum</h4>
+                        <div class="who">VP Sales & Business Development</div>
+                    </div>
+                    <div class="text-descr">
+                        Maoz is a senior sales executive with a 15-year record of multimillion-dollar sales growth for companies in highly competitive markets. He is leading the strategic development of Pango business operations in target countries worldwide.  Maoz has served in number of senior sales positions in international companies, directly responsible for growing companies’ from scratch to worldwide market leaders.
+                        He received a BA in Business Administration from New England College, USA and is in pursuing his MBA from Bradford University, UK.
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+
+
+                <div class="border-delimetr"></div>
+                <div class="col-sm-6  fadeInLeft reveal">
+                    <div class="member">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Orna Eyal</h4>
+                        <div class="who">VP Products</div>
+                    </div>
+                    <div class="text-descr">
+                        Orna is a top level executive with over 25 years of experience in building and managing software solutions and products for the private, public and government sectors. Prior to joining Pango, Orna served as VP Marketing and Sales at ESI (Expert System Industries).  Orna holds a B.Sc. in Statistics from Tel Aviv University and a M.Sc. in Operations Research and Systems Analysis from the Technion - Israel Institute of Technology.
+                    </div>
+                </div>
+                <div class="col-sm-6  fadeInRight reveal">
+                    <div class="member">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Oren Brooks</h4>
+                        <div class="who">Controller and Financial Manager, CPA</div>
+                    </div>
+                    <div class="text-descr">
+                        Oren has over 20 years of experience in corporate finance, control processes, risk management, M&A and IPOs.  Previously, Oren worked at the leading accounting firm Somech Heiken (part of KPMG) as an accountant, responsible for overseeing client accounts for commercial companies and investment firms.  Oren holds a B.A. in Accounting and Statistics from Tel Aviv University.
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="team directors pink-gradient">
+            <div class="container">
+                <h1 class="text-center">Board of Directors</h1>
+                <div class="col-sm-12">
+                    <div class="member fadeInLeft reveal">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Prof. Yehuda Kahane</h4>
+                        <div class="who">Chairman of the Board</div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row text-descr">
+                        <div class="col-sm-6 fadeInLeft reveal">
+                            <p>Prof. Kahane is a senior member of faculty at the School of Management, Tel-Aviv University, and serves as the Head of the Akirov Institute for Business and the Environment. He has taught at major business schools including the Wharton School, University of Texas, University of Toronto, and University of Florida. He is a widely recognized authority in the areas of risk management, insurance, actuarial studies, and technological forecasting.</p>
+
+                            Prof. Kahane is the driving force behind numerous start-up enterprises in which he has been involved as founder,
+                        </div>
+                        <div class="col-sm-6 fadeInRight reveal">
+                            <p>investor and manager: He is a major shareholder and director at Capital Point Ltd., a high-tech incubator (listed on TASE), and the co-founder, director and a major shareholder at Ituran, an international leader in remote vehicle monitoring (NASDAQ: ITRN, TASE). He also served as a board member at New Dimension Software (now BMC Israel).</p>
+
+                             Prof. Kahane has been elected to be the recipient of the 2011 John S. Bickley Founder's Award, which is the highest and most prestigious award in the insurance world.
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="border-delimetr"></div>
+                <div class="col-sm-12">
+                    <div class="member fadeInLeft reveal">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Dr. Yoram Romem</h4>
+                        <div class="who">Board Member</div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row text-descr">
+                        <div class="col-sm-6 fadeInLeft reveal">
+                            Dr. Yoram Romem has more than 30 years of management experience in the global hi-tech industry. He has served as President, CEO and Chairman of international software companies, including Sapiens (NASDAQ: SPNS), ESI (acquired by Formula), Transtech (acquired by Formula), OmniVee (acquired by DVTel), and Profitect (a leading VC-backed global Enterprise Software company). He served as the CIO of the Israeli Air Force in the rank of colonel. Yoram was one
+                        </div>
+                        <div class="col-sm-6 fadeInRight reveal">
+                            <p>of the founders of Pango Mobile Parking Ltd, and he currently serves as a Chairman of several advanced hi-tech companies.</p>
+
+                            Yoram holds a B.Sc. Summa Cum Laude in Computer Sciences from the Technion, Israel Institute of Technology, and a Ph.D. in Philosophy of Science from the Bar-Ilan University.
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="border-delimetr"></div>
+                <div class="col-sm-12">
+                    <div class="member fadeInLeft reveal">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Michael (Miki) Ron</h4>
+                        <div class="who">Board Member</div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row text-descr">
+                        <div class="col-sm-6 fadeInLeft reveal">
+                            Since 1999, Miki has been active in initiating and promoting Israeli technology startups in the medical device, biotechnology, communications and automotive fields. He has established and manages a startup investment club, and serves as an Executive Board Director in a technology incubator.
+                            Miki held senior technological positions at the Israel Atomic Energy Commission, where he was employed for a period of 22 years. In his capacity as VP Technology in a large Israeli company, he was responsible for industrial projects involving renewable energy. Miki started and managed the company
+                        </div>
+                        <div class="col-sm-6 fadeInRight reveal">
+                            <p>that imports and distributes the Japanese Mazda cars, which has become the largest and most profitable car business in Israel.</p>
+
+                            Miki taught at the Industrial Engineering and Management faculty, Ben-Gurion University for 10 years. He was the Consul General of Israel in Los Angeles for 5 years.
+                            Miki holds Bachelor of Science and Master of Science degrees in Electrical Power Engineering, and a Master of Science degree in Industrial Engineering and Management.
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="border-delimetr"></div>
+                <div class="col-sm-12">
+                    <div class="member fadeInLeft reveal">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Dr. Shmuel Cabilly</h4>
+                        <div class="who">Board Member</div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row text-descr">
+                        <div class="col-sm-6 fadeInLeft reveal">
+                            Shmuel is a highly regarded scientist and an experienced director. He was previously with several companies including Ethrog Biotech (Co-Founder and Chief Scientist) which was sold to Invitrogen. He graduated from the Hebrew University
+                        </div>
+                        <div class="col-sm-6 fadeInRight reveal">
+                            (Ph.D., Immunology), and was a Post-Doctoral fellow at the City of Hope Research Institute heading a joint City of Hope/Genentech project where he developed a new technology for recombinant antibody production.
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="border-delimetr"></div>
+                <div class="col-sm-12">
+                    <div class="member fadeInLeft reveal">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Yoav Kahane</h4>
+                        <div class="who">Board Member</div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row text-descr">
+                        <div class="col-sm-6 fadeInLeft reveal">
+                            Mr. Kahane is leading a start-up company in the field of medical device while additionally offering business development services as a consultant. During the years 2006-2009, Mr. Kahane worked for Enzymotec and served as CEO of Advanced Lipids AB a joint venture of AAK AB and Enzymotec, specializing in nutritional ingredients to the gloabal infant nutrition industry.
+                            During the years 2004-2005, Mr. Kahane served as Vice President of Sales and Marketing in Elbit Vision Systems Ltd.
+                        </div>
+                        <div class="col-sm-6 fadeInRight reveal">
+                            <p>Between the years 1996-2001 Mr. Kahane worked for Ituran Location and Control Ltd (NASDAQ: ITRN), location-based services provider, in various managerial positions. In 2000, Mr. Kahane established Ituran Florida Corp. and served as its Chief Executive Officer until 2001.</p>
+                            Mr. Kahane holds BA degree in Life Sciences form Tel-Aviv University, a BA degree in Insurance and an MBA degree from the University of Haifa.
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="border-delimetr"></div>
+                <div class="col-sm-12">
+                    <div class="member fadeInLeft reveal">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Mark Fischer</h4>
+                        <div class="who">Board Member</div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row text-descr">
+                        <div class="col-sm-6 fadeInLeft reveal">
+                            Mark is the Chief Executive Officer of Bearing Capital Ltd., a private investment firm dedicated to investing in innovative consumer-focused companies.
+                            Mark benefits from over 12 years of investment banking and advisory experience having advised on successfully completed transactions with an aggregate value of more than $7 billion.  Prior to establishing Bearing Capital, Mark spent six years with Morgan Stanley in Israel, most recently as a Vice President of Investment Banking with primary coverage responsibility for consumer products, healthcare,                        </div>
+                        <div class="col-sm-6 fadeInRight reveal">
+                            <p>oil & gas, industrials and clean-tech sectors.  Prior to joining Morgan Stanley,  Mark worked was an Associate in Investment Banking at Scotia Capital in Toronto and as an Analyst in Investment Banking at Citigroup Global Markets in Tel Aviv.</p>
+
+                            Mark holds an Honours Business Administration degree and a Masters in Business Administration degree, both from the Richard Ivey School of Business at the University of Western Ontario.
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="border-delimetr"></div>
+                <div class="col-sm-12">
+                    <div class="member fadeInLeft reveal">
+                        <img src="img/comments.png" class="pull-left img-not-scale" alt=""/>
+                        <h4>Limor Sela</h4>
+                        <div class="who">Board Member</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact about">
+            <div class="container">
+                <h1 class="text-center hidden-xs">Contact Us</h1>
+                <a href="#" class="contact-button btn btn-warning visible-xs">Contact Us</a>
+                <br/>
+
+                <form action="">
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Name"/>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="email" placeholder="Email"/>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="">Country</option>
+                                <option value="">Austria</option>
+                                <option value="">Ukraine</option>
+                                <option value="">Russia</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" cols="30" rows="7" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Organization"/>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="tel" placeholder="Phone"/>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="City"/>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="">Interest</option>
+                                <option value="">Sports</option>
+                                <option value="">Books</option>
+                                <option value="">Internet</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-block btn-warning" value="Sumbit Message"/>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="contact-descr">
+                            <img class="footer-logo" src="img/footer-logo.png" alt=""/>
+                            <ul class="list-unstyled">
+                                <li>
+                                    1 Ha’ofe St., Kadima 60920, Israel
+                                </li>
+                                <li>
+                                    +972-0-000000
+                                </li>
+                                <li>
+                                    +972-0-000000
+                                </li>
+                                <li>
+                                    office@pango.com
+                                </li>
+                                <li>
+                                    Sunday - Thursday: 09:00 - 18:00
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-skype"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                        </div>
+
+                    </div>
+                </form>
+                <div class="clearfix"></div>
+                <div class="footer-links text-center">
+                    <ul class="list-inline">
+                        <li><a href="#">Municipal Parking</a></li>
+                        <li><a href="#">Private Parking</a></li>
+                        <li><a href="#">Become a Partner</a></li>
+                        <li><a href="#">Showcase</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About Pango</a></li>
+                    </ul>
+                </div>
+                <div class="copyright text-center">
+                    Copyright © 2014 - Pango | All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center footer">
+        <div class="container-fluid">
+            Strategy & Design: Ziv Emet & Yanay Nir
+        </div>
+    </footer>
+</body>
+</html>
