@@ -1022,7 +1022,7 @@
         margin-left: 57px;
     }
     .slidenewsroom .container-fluid span {
-        font-size: 25px;
+        font-size: 16px;
     }
     .satellite {
         left: -23px;
@@ -1041,6 +1041,7 @@
     }
     .media-slider-block {
         margin-top: 67px;
+        border-width: 5px;
     }
     .media-slider {
         min-height: 610px;

@@ -2181,4 +2181,13 @@ body{
         padding: 5px;
         height: 85px;
     }
+    .slidenewsroom .container-fluid p{
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .footer{
+        font-size: 14px;
+        padding: 20px 0;
+        height: 55px;
+    }
 }
