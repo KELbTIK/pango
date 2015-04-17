@@ -58,7 +58,7 @@
         </nav>
 
 
-            <div class="top-banner-services text-center">
+            <div class="top-banner-services text-center" id="fixed-hidden">
                 <h1>How it works</h1>
             </div>
 
@@ -307,5 +307,23 @@
             Strategy & Design: Ziv Emet & Yanay Nir
         </div>
     </footer>
+    <script>
+        $(window).scroll(function(){
+            if ($(window).scrollTop() > 1){
+                $('.top-banner-services').addClass('margin-fix')
+            }
+            if ($(window).scrollTop() == 0){
+                $('.top-banner-services').removeClass('margin-fix');
+            }
+            var Top = $('.how-works-list').height();
+            if($(this).scrollTop()>Top){
+                $('#fixed-hidden').addClass('hidden')
+            }
+            else {
+                $('#fixed-hidden').removeClass('hidden');
+            }
+        });
+
+    </script>
 </body>
 </html>
