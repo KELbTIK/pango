@@ -879,20 +879,20 @@
     }
 
     .smart-payment {
-        min-height: 690px;;
+        min-height: 625px;;
         padding-top: 100px !important;
     }
 
     .smart-payment img {
-        max-height: 220px !important;
+        max-height: 180px !important;
     }
 
     .more-features h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .more-features p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .more-features .more-features-animation .container {
@@ -900,7 +900,7 @@
     }
 
     .more-features .more-features-animation .container .col-sm-6 h2 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .more-features .more-features-animation .container .col-sm-6 span {
@@ -916,7 +916,7 @@
     }
 
     .more-features .more-features-animation .container .col-sm-6 p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .more-features .container h2 {
@@ -932,12 +932,12 @@
     }
 
     .pangocar .container .col-sm-6 h2 {
-        font-size: 30px;
+        font-size: 24px;
         margin-top: 30px;
     }
 
     .pangocar .container .col-sm-6 p {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 10px;
     }
 
@@ -948,7 +948,7 @@
     }
 
     .pangocs .container .col-sm-6 h2 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .pangocs {
@@ -956,7 +956,7 @@
     }
 
     .pangocs .container .col-sm-6 p {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 10px;
     }
 
@@ -967,11 +967,11 @@
     }
 
     .easyentrance .container .col-sm-6 h2 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .easyentrance .container .col-sm-6 span {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     .easyentrance {
@@ -981,7 +981,7 @@
     }
 
     .easyentrance .container .col-sm-6 p {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 15px;
     }
     .easyentrance .container img {
