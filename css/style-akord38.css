@@ -1065,6 +1065,7 @@
 
     .feature-img.access {
         margin-top: -13px;
+        margin-bottom: 15px;
     }
     .parking-icon-descr {
         font-size: 14px;
@@ -1075,9 +1076,6 @@
     }
     .parking-icon.off {
         margin-left: 15px;
-    }
-    .feature-img.access{
-        margin-bottom: -7px;
     }
     /*partner*/
     .partner-bottom-text {
@@ -1132,22 +1130,25 @@
         padding-bottom:50px;
     }
     .payment-img .icon {
-        height: 150px;
-        width: 153px;
-        background-size: 162px auto;
+        height: 103px;
+        width: 103px;
+        background-size: 112px auto;
+    }
+    .icon.icon-qr {
+        background-position: -23px 11px;
     }
     .payment-block h4 {
         font-size: 24px;
         margin-top: 24px;
     }
     .icon.icon-ticket {
-        background-position: -10px -299px;
+        background-position: -10px -207px;
     }
     .payment {
         padding-bottom: 24px;
     }
     .icon.icon-camera {
-        background-position: -6px -135px;
+        background-position: -7px -89px;
     }
     .about-top-banner .partner-text img {
         max-height: 100px;
