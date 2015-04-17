@@ -879,8 +879,10 @@
     }
 
     .smart-payment {
-        min-height: 625px;;
+        min-height: 600px;;
         padding-top: 100px !important;
+        background: url(../img/parking-an.png) 81% -5% no-repeat !important;
+        background-size: auto 95% !important;
     }
 
     .smart-payment img {
