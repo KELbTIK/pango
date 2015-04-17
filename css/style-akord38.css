@@ -893,6 +893,7 @@
 
     .more-features p {
         font-size: 16px;
+        line-height: 28px;
     }
 
     .more-features .more-features-animation .container {
@@ -917,6 +918,7 @@
 
     .more-features .more-features-animation .container .col-sm-6 p {
         font-size: 16px;
+        line-height: 28px;
     }
 
     .more-features .container h2 {
@@ -924,7 +926,7 @@
     }
 
     .more-features {
-        min-height: 965px !important;
+        min-height: 783px !important;
     }
 
     .pangocar {
@@ -939,6 +941,7 @@
     .pangocar .container .col-sm-6 p {
         font-size: 16px;
         margin-top: 10px;
+        line-height: 28px;
     }
 
     .pangocar .container img {
@@ -958,6 +961,7 @@
     .pangocs .container .col-sm-6 p {
         font-size: 16px;
         margin-top: 10px;
+        line-height: 28px;
     }
 
     .pangocs .container img {
@@ -983,6 +987,7 @@
     .easyentrance .container .col-sm-6 p {
         font-size: 16px;
         margin-top: 15px;
+        line-height: 28px;
     }
     .easyentrance .container img {
         margin-left: 25px !important;
