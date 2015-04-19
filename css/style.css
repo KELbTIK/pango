@@ -193,6 +193,11 @@ body{
     width: 100%;
     /*padding-top: 260px;*/
 }
+@media (min-width: 1900px){
+    .top-carousel{
+        background-position: center -40px;
+    }
+}
 .top-banner{
     position: relative;
     margin-bottom: 30px;
@@ -215,7 +220,10 @@ body{
     color: #24408e;
     font-family: 'source_sans_proSBdIt', "Open Sans";
     margin-bottom: 0;
-    /*margin-top: 100%;*/
+    margin-top: 205px;
+}
+.top-carousel .item h5.nothing{
+    margin-top: 185px;
 }
 .top-carousel .item h1{
     font-size: 48px;
@@ -227,8 +235,8 @@ body{
     color: #24408e;
 }
 .top-carousel .item{
-    min-height: 600px;
-    background-size: 100%;
+    min-height: 620px;
+    background-size: auto;
 }
 .top-bg-1{
     background: url(../img/top-slide-1.png) no-repeat center calc(100% - 86px);
@@ -364,7 +372,7 @@ body{
 }
 .video-bg video{
     position: absolute;
-    bottom: 50%;
+    bottom: 40%;
     min-width: 100%;
     min-height: 100%;
     width: auto;
