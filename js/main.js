@@ -32,6 +32,7 @@ $(document).ready(function(){
     $('.bg-carousel .item').each(function(){
         $(this).css('height', window.innerHeight + 'px');
     });
+    $('.video-bg').css('height', window.innerHeight);
     if (window.innerWidth > 1191){
         $('.top-carousel .item').css('min-height', window.innerWidth/2 - window.innerHeight/6 + 'px');
         $('.top-carousel .item h5').css('margin-top', (window.innerWidth/2 - window.innerHeight/6)/3.3 + 'px');
@@ -82,17 +83,19 @@ $(document).ready(function(){
                 });
             }
         }else{
+
             $('.area').not(this).each(function(){
-                $(this).removeClass('col-sm-3');
-                $(this).addClass('col-sm-2');
+                $(this).removeClass('col-sm-3 open');
+                $(this).addClass('col-sm-1 rotate-area');
             });
-            if ($(this).hasClass('col-sm-3') || $(this).hasClass('col-sm-2')){
-                $(this).removeClass('col-sm-3 col-sm-2');
-                $(this).addClass('col-sm-6');
+
+            if ($(this).hasClass('col-sm-3') || $(this).hasClass('col-sm-1')){
+                $(this).removeClass('col-sm-3 col-sm-1 rotate-area');
+                $(this).addClass('col-sm-9 open');
             }else{
-                $(this).removeClass('col-sm-6');
+                $(this).removeClass('col-sm-9 open');
                 $('.area').each(function(){
-                    $(this).removeClass('col-sm-2');
+                    $(this).removeClass('col-sm-1 rotate-area');
                     $(this).addClass('col-sm-3');
                 });
             }
@@ -168,11 +171,13 @@ $(document).ready(function(){
 });
 
 $(window).resize(function() {
+
     $('.triagle').each(function(){
         $(this).css('border-left-width', $(this).parent().innerWidth()/2);
         $(this).css('border-right-width', $(this).parent().innerWidth()/2);
     })
     if (window.innerWidth > 767) {
+        $('.video-bg').css('height', window.innerHeight);
         var max_tech_height = 0;
         $('.tech-descr').each(function () {
             $(this).removeAttr('style');

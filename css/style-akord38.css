@@ -563,7 +563,7 @@
 }
 
 .contact-showcase{
-    margin-top:-50px;
+    margin-top:-50px!important;
     z-index:99;
 }
 .media-slider-block{
@@ -1195,7 +1195,7 @@
         width: 150px;
         height: 100px;
         background-size: 150px auto;
-        padding-top: 11px;
+        padding-top: 18px;
         padding-right: 9px;
     }
     .partner-bottom-text {
