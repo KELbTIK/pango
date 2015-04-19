@@ -239,16 +239,16 @@ body{
     background-size: auto;
 }
 .top-bg-1{
-    background: url(../img/top-slide-1.png) no-repeat center calc(100% - 86px);
+    background: url(../img/top-slide-1.png) no-repeat center calc(100% - 8px);
 }
 .top-bg-2{
-    background: url(../img/top-slide-2.png) no-repeat center calc(100% - 86px);
+    background: url(../img/top-slide-2.png) no-repeat center calc(100% - 8px);
 }
 .top-bg-3{
-    background: url(../img/top-slide-3.png) no-repeat center calc(100% - 86px);
+    background: url(../img/top-slide-3.png) no-repeat center calc(100% - 8px);
 }
 .top-bg-4{
-    background: url(../img/top-slide-4.png) no-repeat center calc(100% - 86px);
+    background: url(../img/top-slide-4.png) no-repeat center calc(100% - 8px);
 }
 .top-carousel .container{
     max-width: 920px;
