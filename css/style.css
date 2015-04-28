@@ -1,4 +1,16 @@
 @font-face {
+    font-family: 'open_sanslight_italic';
+    src: url('../fonts/opensans-lightitalic-webfont.eot');
+    src: url('../fonts/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-lightitalic-webfont.woff') format('woff'),
+    url('../fonts/opensans-lightitalic-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
     font-family: 'source_sans_proregular';
     src: url('../fonts/SourceSansPro-Regular-webfont.eot');
     src: url('../fonts/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -85,13 +97,13 @@
     to { background-position: 100% 0; }
 }
 @keyframes animatedBackgroundBottom {
-    from { background-position: 0 100%; }
-    to { background-position: 100% 100%; }
+    from { background-position: 100% 100%; }
+    to { background-position: 0 100%; }
 }
 
 @-webkit-keyframes animatedBackgroundBottom {
-    from { background-position: 0 100%; }
-    to { background-position: 100% 100%; }
+    from { background-position: 100% 100%; }
+    to { background-position:   0 100%; }
 }
 html,
 body {
@@ -104,7 +116,7 @@ img{
     min-height: 100%;
     /* equal to footer height */
     margin-bottom: -40px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .page-wrap:after {
     content: "";
@@ -120,14 +132,14 @@ body{
 .main-navbar{
     background: #fff;
     min-height: 120px;
-    -webkit-transition: all 2s; /* Safari */
-    transition: all 2s;
+    -webkit-transition: all 0.5s; /* Safari */
+    transition: all 0.5s;
     box-shadow: 0px -5px 35px 0px #000000;
 }
 .main-navbar .navbar-brand img{
     max-height: 85px!important;
     -webkit-transition: all 2s; /* Safari */
-    transition: all 2s;
+    transition: all 0.5s;
 }
 .main-navbar .navbar-nav > li > a{
     padding-top: 0;
@@ -148,7 +160,7 @@ body{
     margin-top: 53px;
     -webkit-transition: all 0.5s; /* Safari */
     transition: all 0.5s;
-    margin-right: 20px;
+    margin-right: 65px;
 }
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
     height: 120px;
@@ -187,7 +199,7 @@ body{
 .top-carousel{
     background: url(../img/bg-top-banner.png) no-repeat center 0;
     background-size: cover;
-    min-height: 310px;
+    min-height: 300px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -200,7 +212,6 @@ body{
 }
 .top-banner{
     position: relative;
-    margin-bottom: 30px;
 }
 .buildings-bg{
     background: url(../img/building-bg.png) repeat-x left;
@@ -305,6 +316,7 @@ body{
     position: relative;
     padding: 5px 0 3px;
     margin-bottom: 10px;
+    margin-top: 15px;
 }
 .section:before{
     content: '';
@@ -383,7 +395,7 @@ body{
         height: 375px!important;
     }
 }
-@media (max-width: 1191px){
+@media (max-width: 991px){
     .top-carousel{
         background: -moz-linear-gradient(top,  rgba(203,219,232,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(203,219,232,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
@@ -509,7 +521,7 @@ body{
 }
 .icon-container{
     width: 38px;
-    height: 38px;
+    height: 40px;
     margin: 0 auto;
 }
 .icon-container i{
@@ -527,43 +539,43 @@ body{
     background-position: 0px -43px;
 }
 .icon-global{
-    background-position: 0px -86px;
+    background-position: 0px -85px;
 }
 .icon-patented{
-    background-position: 0px -129px;
+    background-position: 0px -128px;
 }
 .icon-pci{
-    background-position: 0px -172px;
+    background-position: 0px -171px;
 }
 .icon-light{
-    background-position: 0px -215px;
+    background-position: 0px -214px;
 }
 .icon-off{
-    background-position: 0px -258px;
+    background-position: 0px -257px;
 }
 .icon-lots{
-    background-position: 0px -301px;
+    background-position: 0px -299px;
 }
 .icon-shop{
-    background-position: 0px -344px;
+    background-position: 0px -342px;
 }
 .icon-hospital{
-    background-position: 0px -387px;
+    background-position: 0px -385px;
 }
 .icon-university{
-    background-position: 0px -430px;
+    background-position: 0px -427px;
 }
 .icon-plane{
-    background-position: 0px -473px;
+    background-position: 0px -470px;
 }
 .icon-valet{
-    background-position: 0px -516px;
+    background-position: 0px -513px;
 }
 .icon-event{
-    background-position: 0px -559px;
+    background-position: 0px -556px;
 }
 .icon-parking{
-    background-position: 0px -602px;
+    background-position: 0px -599px;
 }
 @media (max-width: 767px){
     .tech-descr{
@@ -620,8 +632,6 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-
-
     background-image: url(../img/eco-bg.png);
     /*background-size: 1400px 285px;*/
     background-size: 50%;
@@ -630,6 +640,30 @@ body{
     animation: animatedBackgroundBottom 40s linear infinite;
     -webkit-animation: animatedBackgroundBottom 40s linear infinite;
 }
+.eco-bg-index{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/eco-bg-index.png);
+    /*background-size: 1400px 285px;*/
+    background-size: 50%;
+    background-repeat:  repeat-x ;
+    background-position: 0 100%;
+    animation: animatedBackgroundBottom 40s linear infinite;
+    -webkit-animation: animatedBackgroundBottom 40s linear infinite;
+}
+.eco-tree-cloud{
+    position: absolute;
+    bottom: -256px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/eco-tree-cloud.png);
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
 .ecosystem h1{
     font-family: 'source_sans_problack_italic', 'Open Sans';
     font-size: 53px;
@@ -710,12 +744,13 @@ body{
     height: 101px;
     background-position: 4px 0px;
     margin-left: 38px;
+    margin-top: -22px;
 }
 .feature-img.clock{
     background-position: -5px -108px;
     width: 81px;
     height: 81px;
-}
+}   
 .feature-img.map{
     background-position: -5px -206px;
     width: 81px;
@@ -732,11 +767,13 @@ body{
 }
 .feature-img.mobile{
     background-position: -1px -570px;
+    margin-top: -40px;
 }
 .feature-img.time{
     background-position: -116px 0px;
     width: 90px;
     height: 100px;
+    margin-top: -18px;
 }
 .ecosystem .container{
     position: relative;
@@ -895,16 +932,25 @@ body{
     width: calc(100% + 25px);
     height: 341px;
     left: -15px;
-    background: url(../img/municipal_parking.png) no-repeat 0 0;
-    background-size: 958px 540px;
+    //background: url(../img/municipal_parking.png) no-repeat 0 0;
+    //background-size: 958px 540px;
+}
+.parking .municipal video, .parking .private video{
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	left: 0;
+	top: 0;
 }
 .parking .private{
     position: relative;
     width: calc(100% + 25px);
     height: 341px;
     right: 10px;
-    background: url(../img/private_parking.png) no-repeat 0 0;
-    background-size: 1043px 587px;
+    //background: url(../img/private_parking.png) no-repeat 0 0;
+    //background-size: 1043px 587px;
 }
 .parking h1{
     font-family: 'source_sans_probold', 'Open Sans';
@@ -927,51 +973,66 @@ body{
     margin-top: 23px;
 }
 .parking-icon{
-    width: 75px;
-    height: 80px;
+	/*width: 75px;
+    height: 80px;*/
+    width: 103px;
+    height: 81px;
     display: block;
     margin: 0 auto 10px;
-    background-image: url(../img/parking.png);
+    /*background-image: url(../img/parking.png);*/
     background-repeat: no-repeat;
-    background-size: 102px 743px;
+    /*background-size: 102px 743px;*/
+    background-image: url(../img/parking-new.png);
+    /* background-size: 102px 743px; */
+    background-size: 103px 1012px;
 }
 .parking-icon.light{
-    background-position: 0px 0px;
+    /*background-position: 0px 0px;*/
+    background-position: 26px 0px;
 }
 .parking-icon.off{
-    background-position: 0px -84px;
+    /*background-position: 0px -84px;*/
+    background-position: 21px -114px
 }
 .parking-icon.lots {
-    background-position: 0px -165px;
+	/* background-position: 0px -165px;*/
+	background-position: 18px -224px;
 }
 .parking-icon.maps {
-    background-position: 0px -244px;
+    /*background-position: 0px -244px;*/
+    background-position: 23px -333px
 }
 .parking-icon.hospitals {
-    background-position: 0px -325px;
+    /*background-position: 0px -325px;*/
+    background-position: 15px -442px;
 }
 .parking-icon.university {
-    background-position: 0px -403px;
-    height: 70px;
+    /*background-position: 0px -403px;*/
+    background-position: 0px -540px;
+    /*height: 70px;
     margin-top: 10px;
-    width: 103px;
+    width: 103px;*/
 }
 .parking-icon.airoports {
-    background-position: 0px -469px;
+    /*background-position: 0px -469px;
     height: 70px;
-    margin-top: 10px;
+    margin-top: 10px;*/
+    background-position: 17px -638px;
 }
 .parking-icon.man {
-    background-position: 17px -537px;
+    /*background-position: 17px -537px;*/
+    background-position: 30px -742px;
 }
 .parking-icon.event {
-    height: 50px;
+    /*height: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-position: 0px -617px;
+    background-position: 0px -617px;*/
+    background-position: 16px -637px;
 }
 .parking-icon.garage {
-    background-position: 0px -666px;
+    /*background-position: 0px -666px;*/
+    background-position: 15px -830px;
 }
 .parking-content{
     padding-bottom: 84px;
@@ -1091,6 +1152,10 @@ body{
     margin-top: 8px;
 }
 @media (max-width: 767px){
+    .buildings-bg{
+        bottom: -100px;
+        background-size: auto 50%;
+    }
     .section{
         font-size: 20px;
     }
@@ -1099,7 +1164,7 @@ body{
         padding-bottom: 27px;
     }
     .icon-container{
-        height: 53px;
+        height: 56px;
         width: 53px;
     }
     .technologies .container > div{
@@ -1118,10 +1183,10 @@ body{
         line-height: 1.2;
     }
     .icon-global{
-        background-position: 0px -120px;
+        background-position: 0px -119px;
     }
     .icon-powerful {
-        background-position: 0px -60px;
+        background-position: 0px -59px;
     }
     .icon-patented {
         background-position: 0px -179px;
@@ -1160,7 +1225,7 @@ body{
         font-size: 28px;
         max-width: 200px;
     }
-    .eco-bg{
+    .eco-bg-index{
         background-size: 840px 148px;
     }
     .road img{
@@ -1226,6 +1291,7 @@ body{
         margin: -20px auto 0;
         padding-top: 6px;
         padding-bottom: 6px;
+        border:none;
     }
     .copyright{
         font-size: 18px;
@@ -1248,6 +1314,13 @@ body{
 .municipal-area{
     background: #cbdbe8;
     margin-bottom: 40px;
+    height: 240px; /* Added by Nimi - Fix for Desktop resolution */
+    overflow: hidden; /* Added by Nimi - Fix for Desktop resolution */
+}
+@media (max-width: 767px){
+.municipal-area{
+    height: auto; /* Added by Nimi - Fix for Desktop resolution */
+}
 }
 .municipal-area h3{
     color: #24408e;
@@ -1302,6 +1375,7 @@ body{
     z-index: 1;
     text-indent: -9999999999px;
     height: 100%;
+    display: none;
 }
 .collapse-top h3{
     margin: 10px 0;
@@ -1356,7 +1430,7 @@ body{
 }
 .advantages-img{
     position: absolute;
-    background: url(../img/advantages.png) no-repeat center;
+    /*background: url(../img/advantages.png) no-repeat center;*/
     background-size: 1024px 250px;
     z-index: 999;
     bottom: 31px;
@@ -1364,14 +1438,14 @@ body{
     height: 250px;
 }
 .contact.municipal-bg:before{
-    box-shadow: 0px -5px 0px 0px #25408f;
+    box-shadow: 0px -10px 0px 0px #25408f;
     top: -110px;
 }
 .advantages .eco-bg{
     background-size: 80%;
 }
 .advantages{
-    padding-top: 148px;
+    padding-top: 35px;
     min-height: 1018px;
 }
 .advantages-icons{
@@ -1389,6 +1463,8 @@ body{
     color: #24408e;
     position: relative;
     overflow: hidden;
+    min-height: 240px!important; /* Added by Nimi - Fix for Desktop resolution */
+    cursor: default;
 }
 .collapse-content b{
     font-weight: normal;
@@ -1422,6 +1498,13 @@ body{
     padding: 13px 35px;
     margin-bottom: 0;
     min-height: 240px;
+}
+.collapse-top li{
+    cursor: pointer;
+}
+.collapse-top li.active{
+    font-weight: normal;
+    font-family: 'source_sans_probold', 'Open Sans';
 }
 @media (max-width: 767px){
     .collapse-top{
@@ -1476,6 +1559,10 @@ body{
     padding: 15px 35px 35px 80px;
     line-height: 1.8;
     text-align: left;
+    display: none;
+}
+.collapse-note.active{
+    display: block;
 }
 @media (max-width: 767px) {
     .collapse-note{
@@ -1499,19 +1586,19 @@ body{
         display: none;
     }
     .icon-light {
-        background-position: 0px -299px;
+        background-position: 0px -297px;
     }
     .icon-off {
-        background-position: 0px -359px;
+        background-position: 0px -357px;
     }
     .icon-lots {
-        background-position: 0px -419px;
+        background-position: 0px -417px;
     }
     .collapse ul li{
         margin-top: 10px;
     }
     .municipal-area{
-        margin-bottom: 86px;
+        margin-bottom: 40px;
     }
     .advantages{
         padding-top: 68px;
@@ -1571,10 +1658,10 @@ body{
 .ecosystem.advantages.private .advantages-icons{
     margin: 58px 0 107px;
 }
-.ecosystem.advantages.private  .advantages-img{
-    background: url(../img/private-bg.png) no-repeat center;
-    height: 330px;
-}
+/*.ecosystem.advantages.private  .advantages-img{*/
+    /*background: url(../img/private-bg.png) no-repeat center;*/
+    /*height: 330px;*/
+/*}*/
 .private h6{
     color: #000;
     font-size: 26px;
@@ -1643,25 +1730,25 @@ body{
         background-size: 242px auto;
     }
     .icon-shop{
-        background-position: 0px -479px;
+        background-position: 0px -477px;
     }
     .icon-hospital{
-        background-position: 0px -539px;
+        background-position: 0px -536px;
     }
     .icon-university{
-        background-position: 0px -599px;
+        background-position: 0px -596px;
     }
     .icon-plane{
-        background-position: 0px -659px;
+        background-position: 0px -655px;
     }
     .icon-valet{
-        background-position: 0px -719px;
+        background-position: 0px -715px;
     }
     .icon-event{
-        background-position: 0px -779px;
+        background-position: 0px -775px;
     }
     .icon-parking{
-        background-position: 0px -839px;
+        background-position: 0px -834px;
     }
     .technologies.private h2{
         font-size: 28px;
@@ -1862,7 +1949,7 @@ body{
     .partner-bottom-text{
         font-size: 28px;
         line-height: 1.7;
-        margin-bottom: 52px;
+        margin-bottom: 20px;
     }
     .partner-text h1{
         font-size: 54px;
@@ -2020,7 +2107,7 @@ body{
     margin-bottom: 0;
 }
 .about-top-banner{
-    background: url(../img/about-bg.jpg) no-repeat center;
+    background: url(../img/about-bg.jpg) no-repeat 0 0;
     height: 490px;
     width: 100%;
     background-size: cover;
@@ -2068,6 +2155,7 @@ body{
 }
 .about-top-banner .partner-text img{
     max-height: 200px;
+    margin-top: 25px;
 }
 @media (max-width: 767px){
     #map-canvas{
@@ -2135,6 +2223,7 @@ body{
         left: -50%;
     }
 }
+
 @media (max-width: 550px){
     .vision .icon{
         width: 300px;
@@ -2148,8 +2237,33 @@ body{
     .icon-vision span{
         font-size: 20px;
     }
+    .top-carousel{
+        min-height: 225px;
+    }
+
+    .buildings-bg {
+        bottom: -103px;
+    }
 }
 @media (max-width: 600px){
+    .top-carousel-index{
+        min-height: 250px;
+    }
+    .top-carousel-index .item {
+        min-height: 250px!important;
+    }
+    .video-bg {
+        height: 360px!important;
+    }
+    .main-navbar .navbar-brand img{
+        max-height: 50px!important;
+    }
+    .navbar-default .navbar-toggle{
+        margin-top: 8px;
+    }
+    .navbar-toggle .icon-bar{
+        width: 28px;
+    }
     .main-navbar .navbar-nav > li > a{
         font-size: 13px;
         padding-top: 5px;
@@ -2162,7 +2276,7 @@ body{
         height: 400px!important;
     }
     .top-carousel .item h5{
-        margin-top: 50px!important;
+        margin-top: 30px!important;
         font-size: 20px;
     }
     .top-carousel .item h1{
@@ -2215,7 +2329,7 @@ body{
         background-position: 0px -84px;
     }
     .icon-pci {
-        background-position: 0px -113px;
+        background-position: 0px -112px;
     }
     .tech-descr{
         padding-bottom: 10px;
@@ -2233,40 +2347,40 @@ body{
         margin-top: 5px;
     }
     .parking-icon.off {
-        background-position: 13px -39px;
+        background-position: 13px -50px;
         height: 44px;
         margin-bottom: 11px;
     }
     .parking-icon.lots {
-        background-position: 0px -81px;
+        background-position: 0px -107px;
         height: 40px;
         margin-top: 5px;
     }
     .parking-icon.maps {
-        background-position: 11px -121px;
+        background-position: 11px -161px;
         margin-top: 5px;
         height: 39px;
     }
     .parking-icon.hospitals {
-        background-position: 0px -159px;
+        background-position: 0px -213px;
         height: 40px;
         width: 40px;
         margin-top: 5px;
     }
     .parking-icon.university {
-        background-position: 2px -199px;
+        background-position: 2px -270px;
         height: 30px;
         margin-top: 15px;
         width: 52px;
     }
     .parking-icon.airoports {
-        background-position: 0px -229px;
+        background-position: 0px -312px;
         height: 35px;
         width: 40px;
         margin-top: 15px;
     }
     .parking-icon.man {
-        background-position: 17px -263px;
+        background-position: 17px -363px;
         height: 39px;
         width: 56px;
         margin-top: 16px;
@@ -2276,10 +2390,10 @@ body{
         width: 45px;
         margin-top: 20px;
         margin-bottom: 16px;
-        background-position: 0px -300px;
+        background-position: 0px -414px;
     }
     .parking-icon.garage {
-        background-position: 0px -327px;
+        background-position: 5px -444px;
         margin-top: 10px;
         width: 45px;
     }
@@ -2304,11 +2418,11 @@ body{
         height: 55px;
     }
     .main-navbar{
-        min-height: 50px;
+        min-height: 60px!important;
     }
     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
         height: 50px;
-        padding: 5px;
+        padding: 10px 5px 0 5px;
     }
     .navbar-toggle .icon-bar{
         height: 4px;
@@ -2320,5 +2434,21 @@ body{
     .main-navbar.fixed .navbar-right, .main-navbar .navbar-right{
         margin-top: 0;
     }
+	.municipal-area{
+		min-height: 0;
+	}
+	.partner-top-slider .buildings-bg{
+		bottom: -126px;
+	}
+	.img-partner{
+		margin-bottom: 0;
+		margin-top: -20px;
+	}
+}
+@media (max-width: 400px){
+	.top-bg-1, .top-bg-2, .top-bg-3, .top-bg-4{
+		background-position: center calc(100% - 18px);
+	}
+	.partner-text{ top: 30%;}
 }
 

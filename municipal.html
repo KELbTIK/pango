@@ -19,7 +19,7 @@
     <script type="text/javascript" src="js/jquery.bxslider.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
+<body class="bodypad-mb">
     <div class="page-wrap">
         <nav class="navbar navbar-default navbar-fixed-top main-navbar">
             <div class="container-fluid">
@@ -33,7 +33,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#"><img class="img-responsive" src="img/logo.png" alt=""/></a>
+                            <a class="navbar-brand" href="/pango/index.html"><img class="img-responsive" src="img/logo.png" alt=""/></a>
                         </div>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -41,13 +41,13 @@
                         <div class="row">
                             <div class="collapse navbar-collapse " id="main-menu-navbar">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a href="/">Home</a></li>
-                                    <li><a href="municipal.html">Municipal parking</a></li>
-                                    <li><a href="private.html">Private parking</a></li>
-                                    <li><a href="partner.html">Become a partner</a></li>
-                                    <li><a href="showcase.html">Showcase</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="about.html">About Pango</a></li>
+                                    <li><a href="/pango/index.html">Home</a></li>
+                                    <li class="active"><a href="/pango/municipal.html">Municipal parking</a></li>
+                                    <li><a href="/pango/private.html">Private parking</a></li>
+                                    <li><a href="/pango/partner.html">Become a partner</a></li>
+                                    <li><a href="/pango/showcase.html">Showcase</a></li>
+                                    <li><a href="/pango/services.html">Services</a></li>
+                                    <li><a href="/pango/about.html">About Pango</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -56,134 +56,95 @@
             </div>
         </nav>
         <div class="top-banner">
-            <a href="#" class="gettheapp">Get <br/> the <br/> app</a>
-            <ul id="carousel-bg" class="bg-carousel carousel slide list-unstyled">
-                <li class="item bg-1"></li>
-                <li class="item bg-2"></li>
-                <li class="item bg-3"></li>
-                <li class="item bg-4"></li>
-            </ul>
-            <div id="carousel-banner" class="carousel slide top-carousel">
-                <!-- Wrapper for slides -->
 
+            <div class="video-bg video-bg-municipal">
+                <video width="100%" height="100%" autoplay loop>
+                    <source src="video/shutterstock_v4195009.mp4_11.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div id="carousel-banner" class="carousel slide top-carousel top-carousel-border">
+                <a href="#" class="gettheapp">Get <br/> the <br/> app</a>
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active top-bg-1">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-4 text-center">
-                                    <h5>Smart</h5>
-                                    <h1>Parking</h1>
-                                </div>
-                                <div class="col-xs-4 text-center">
-                                    <h5>Smart</h5>
-                                    <h1>Payment</h1>
-                                </div>
-                                <div class="col-xs-4 text-center">
-                                    <h5>Smart</h5>
-                                    <h1>Business</h1>
-                                </div>
-                                <p class="quote text-center">
-                                    By wrapping a unique ecosystem around the driver, <br/>
-                                    Pango is much more than a mobile parking application
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item top-bg-2">
+                    <div class="item active top-bg-municipal">
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-12 text-center">
-                                    <h5>Pango</h5>
-                                    <h1>Smart Arrival™</h1>
+                                    <h5></h5>
+                                    <h1>Municipal Parking</h1>
+                                    <p class="p-slider text-center hidden-xs">
+                                        Increase municipal revenue, drive economic development
+                                        and improve citizen services
+                                    </p>
                                 </div>
-                                <p class="quote text-center">
-                                    Putting an end to the <br/>
-                                    search for parking
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item top-bg-3">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12 text-center">
-                                    <h5 class="nothing">&nbsp;</h5>
-                                    <h1>
-                                        <span>From</span> anonymous drivers <br/>
-                                        <span>to</span> loyal customers
-                                    </h1>
-                                </div>
-                                <p class="quote text-center">
-                                    Enabling Big Data analytics that drives <br/>
-                                    targeted marketing and boost revenue
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item top-bg-4">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12 text-center">
-                                    <h5 class="nothing">&nbsp;</h5>
-                                    <h1>
-                                        Driving a smart city ecosystem
-                                    </h1>
-                                </div>
-                                <p class="quote text-center">
-                                    Enabling Big Data analytics that drives <br/>
-                                    targeted marketing and boost revenue
-                                </p>
+
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Controls -->
-                <a class="left controls-button" href="#carousel-banner" role="button" data-slide="prev">
-                    <span aria-hidden="true"><img src="img/arrow-left.png" alt=""/></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right controls-button" href="#carousel-banner" role="button" data-slide="next">
-                    <span aria-hidden="true"><img src="img/arrow-right.png" alt=""/></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
-            <div class="buildings-bg"></div>
+            <div class="buildings-bg buildings-bg-correct"></div>
         </div>
+        <p class="p-slider text-center visible-xs">
+            Increase municipal revenue, drive economic development
+            and improve citizen services
+        </p>
         <div class="municipal-area" >
             <div class="container" id="accordion">
                 <div class="col-sm-3 area panel" >
                     <div class="area-green" data-parent="#accordion"  data-toggle="collapse" data-target="#collapseGreen" aria-expanded="false" aria-controls="collapseGreen">
-                        <h3>Smart <br class="hidden-xs"/> City</h3>
-
+                        <h3><br class="hidden-xs"/>SMART PARKING</h3>
                     </div>
                     <div class="collapse" id="collapseGreen" aria-labelledby="collapseGreen">
                         <div class="collapse-content">
                             <div class="collapse-top col-sm-6">
-                                <h3>Smart City</h3>
+                                <h3>SMART PARKING & PAYMENT</h3>
                                 <ul class="list-unstyled text-left">
-                                    <li>
+                                    <li class="active" data-tab="#smart1">
                                         No hardware
                                     </li>
-                                    <li>
-                                        <b>No hardware</b>
+                                    <li  data-tab="#smart2">
+                                        Reduce traffic & fuel emissions
                                     </li>
-                                    <li>
-                                        No hardware
+                                    <li  data-tab="#smart3">
+                                        Improve citizen services
                                     </li>
-                                    <li>
-                                        No hardware
+                                    <li  data-tab="#smart4">
+                                        Simple, no-cost implementation
                                     </li>
-                                    <li>
-                                        No hardware
+                                    <li  data-tab="#smart5">
+                                        Parking information on map
+                                    </li>
+                                    <li  data-tab="#smart6">
+                                        Guidance to free parking
+                                    </li>
+                                    <li  data-tab="#smart7">
+                                        Find my car
                                     </li>
                                 </ul>
                                 <div class="triagle visible-xs"></div>
                                 <div class="triagle right hidden-xs"></div>
                             </div>
 
-                            <div class="collapse-note col-sm-6">
+                            <div class="collapse-note active col-sm-6" id="smart1">
+                                No costly, time-consuming installation & maintenance
+                            </div>
+                            <div class="collapse-note col-sm-6" id="smart2">
                                 Avoid parking jams, reduce congestion & lower carbon emissions
+                            </div>
+                            <div class="collapse-note col-sm-6" id="smart3">
+                                Meet citizen's rising expectations for mobility, digital services and environmental sustainability
+                            </div>
+                            <div class="collapse-note col-sm-6" id="smart4">
+                                No additional investment required, easy to add parking spots, need only to add street signage
+                            </div>
+                            <div class="collapse-note col-sm-6" id="smart5">
+                                Real-time tarrifs & parking availability
+                            </div>
+                            <div class="collapse-note col-sm-6" id="smart6">
+                                Navigate to parking area
+                            </div>
+                            <div class="collapse-note col-sm-6" id="smart7">
+                                Mark on map car location
                             </div>
                         </div>
 
@@ -191,111 +152,111 @@
                 </div>
                 <div class="col-sm-3 area panel">
                     <div class="area-violet" data-parent="#accordion"  data-toggle="collapse" data-target="#collapseViolet" aria-expanded="false" aria-controls="collapseViolet">
-                        <h3> <br class="hidden-xs"/>Revenues & Costs</h3>
+                        <h3> <br class="hidden-xs"/>SMART CITY</h3>
 
 
                     </div>
                     <div class="collapse" id="collapseViolet" aria-labelledby="collapseViolet">
                         <div class="collapse-content">
                             <div class="collapse-top col-sm-6">
-                                <h3>Smart Parking & Payment</h3>
+                                <h3>SMART CITY</h3>
                                 <ul class="list-unstyled text-left">
-                                    <li>
-                                        No hardware
+                                    <li class="active"  data-tab="#revenue1">
+                                        Personalized business offerings
                                     </li>
-                                    <li>
-                                        <b>No hardware</b>
-                                    </li>
-                                    <li>
-                                        No hardware
-                                    </li>
-                                    <li>
-                                        No hardware
-                                    </li>
-                                    <li>
-                                        No hardware
+                                    <li data-tab="#revenue2">
+                                        Increase local revenue
                                     </li>
                                 </ul>
                                 <div class="triagle visible-xs"></div>
                                 <div class="triagle right hidden-xs"></div>
                             </div>
 
-                            <div class="collapse-note col-sm-6">
-                                Avoid parking jams, reduce congestion & lower carbon emissions
+                            <div class="collapse-note col-sm-6 active" id="revenue1">
+                                Access to usage statistics, user habits that can be utilized to drive business offerings
+                            </div>
+                            <div class="collapse-note col-sm-6" id="revenue2">
+                                Location based benefits encourage drivers to support local businesses through special offers and coupons
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3 area panel">
                     <div class="area-brown" data-parent="#accordion" data-toggle="collapse" data-target="#collapseBrown" aria-expanded="false" aria-controls="collapseBrown">
-                        <h3>Increased <br class="hidden-xs"/>
-                        profit</h3>
+                        <h3>INCREASED <br class="hidden-xs"/>
+                        PROFIT</h3>
 
                     </div>
                     <div class="collapse" id="collapseBrown" aria-labelledby="collapseBrown">
                         <div class="collapse-content">
                             <div class="collapse-top col-sm-6">
-                                <h3>Increased profit</h3>
+                                <h3>INCREASED PROFIT</h3>
                                 <ul class="list-unstyled text-left">
-                                    <li>
-                                        No hardware
+                                    <li class="active"  data-tab="#profit1">
+                                        Enforcement improvement
                                     </li>
-                                    <li>
-                                        <b>No hardware</b>
+                                    <li data-tab="#profit2">
+                                        Improved resource management
                                     </li>
-                                    <li>
-                                        No hardware
+                                    <li data-tab="#profit3">
+                                        Flexible pricing
                                     </li>
-                                    <li>
-                                        No hardware
-                                    </li>
-                                    <li>
-                                        No hardware
+                                    <li data-tab="#profit4">
+                                        Paperless billing
                                     </li>
                                 </ul>
                                 <div class="triagle visible-xs"></div>
                                 <div class="triagle right hidden-xs"></div>
                             </div>
 
-                            <div class="collapse-note col-sm-6">
-                                Avoid parking jams, reduce congestion & lower carbon emissions
+                            <div class="collapse-note col-sm-6 active" id="profit1">
+                                Secure electronic payment and billing, improving revenue control and minimizing leakage 
+                            </div>
+                            <div class="collapse-note col-sm-6" id="profit2">
+                                Know precise location of parking officers and where they need to be
+                            </div>
+                            <div class="collapse-note col-sm-6" id="profit3">
+                                Create modular pricing policies based on customized criteria (i.e., zones, residency status, priority, time)
+                            </div>
+                            <div class="collapse-note col-sm-6" id="profit4">
+                                No parking slips, option to receive one bill per month or go completely paperless
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3 area panel">
                     <div class="area-orange" data-parent="#accordion" data-toggle="collapse" data-target="#collapseOrange" aria-expanded="false" aria-controls="collapseOrange">
-                        <h3>Big Data <br class="hidden-xs"/>
-                        analytics</h3>
+                        <h3>BIG DATA <br class="hidden-xs"/>
+                        ANALYTICS</h3>
 
                     </div>
                     <div class="collapse" id="collapseOrange" aria-labelledby="collapseOrange">
                         <div class="collapse-content">
                             <div class="collapse-top col-sm-6">
-                                <h3>Big Data analytics</h3>
+                                <h3>BIG DATA ANALYTICS</h3>
                                 <ul class="list-unstyled text-left">
-                                    <li>
-                                        No hardware
+                                    <li class="active" data-tab="#analytic1">
+                                        Real-time analytics
                                     </li>
-                                    <li>
-                                        <b>No hardware</b>
+                                    <li data-tab="#analytic2">
+                                        Connect with drivers
                                     </li>
-                                    <li>
-                                        No hardware
-                                    </li>
-                                    <li>
-                                        No hardware
-                                    </li>
-                                    <li>
-                                        No hardware
+                                    <li data-tab="#analytic3">
+                                        Connect with parking officers
                                     </li>
                                 </ul>
                                 <div class="triagle visible-xs"></div>
                                 <div class="triagle right hidden-xs"></div>
                             </div>
 
-                            <div class="collapse-note col-sm-6">
-                                Avoid parking jams, reduce congestion & lower carbon emissions
+                            <div class="collapse-note col-sm-6 active" id="analytic1">
+                                Access to parking and transportation data
+                            </div>
+                            <div class="collapse-note col-sm-6" id="analytic2">
+                                Instantly communicate important messages (i.e., city notifications, service alerts, emergency situations)
+                            </div>
+                            <div class="collapse-note col-sm-6" id="analytic3">
+                                Real-time reports, zone-specific audits, traffic management & response
                             </div>
                         </div>
                     </div>
@@ -309,17 +270,12 @@
         <div class="section text-center"><span>Municipal Parking Types:</span></div>
         <div class="technologies">
             <div class="container">
-                <a href="#" class="pci">
-                    <img src="img/pci-icon.png" class="pull-left" alt=""/>
-                    Pango app is certified Level 1
-                    Industry's Data Security Standards
-                </a>
                 <div class="col-sm-4 text-center">
                     <div class="icon-container zoomIn reveal">
                         <i class="icon-light"></i>
                     </div>
                     <div class="tech-descr">
-                        <h2>On Street parking</h2>
+                        <h2>On Street <br>parking</h2>
                     </div>
                 </div>
                 <div class="col-sm-4 text-center">
@@ -327,7 +283,7 @@
                         <i class="icon-lots"></i>
                     </div>
                     <div class="tech-descr">
-                        <h2>Surface Lots</h2>
+                        <h2>Surface <br>Lots</h2>
                     </div>
                 </div>
                 <div class="col-sm-4 text-center">
@@ -335,13 +291,14 @@
                         <i class="icon-off"></i>
                     </div>
                     <div class="tech-descr">
-                        <h2>Off Street parking</h2>
+                        <h2>Off Street <br>parking</h2>
                     </div>
                 </div>
             </div>
         </div>
         <div class="ecosystem advantages ecosystem-padbot">
             <div class="eco-bg hidden-xs"></div>
+            <div class="cloud hidden-xs"></div>
             <div class="container">
                 <h1 class="text-center">
                     Consumer Advantages
@@ -387,6 +344,9 @@
                 </h1>
             </div>
             <div class="advantages-img"></div>
+            <img class="car-pango hidden-xs" src="img/car-pango.png" alt=""/>
+            <img class="man-municipal hidden-xs" src="img/police.png" alt=""/>
+            <img class="building hidden-xs" src="img/building.png" alt=""/>
         </div>
         <div class="contact municipal-bg">
             <div class="container">
