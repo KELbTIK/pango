@@ -1224,29 +1224,29 @@
     .private h6 {
         font-size: 16px;
     }
-    .advantages-icons .feature-img {
-        width: 100px!important;
-        height: 100px!important;
-        background-size: 250px auto;
-    }
+    /*.advantages-icons .feature-img {*/
+        /*width: 100px!important;*/
+        /*height: 100px!important;*/
+        /*background-size: 250px auto;*/
+    /*}*/
 
-    .advantages-icons .feature-img.clock {
-        background-position: -7px -132px;
-    }
-    .advantages-icons .feature-img.map {
-        background-position: -5px -251px;
-    }
-    .advantages-icons .feature-img.checked {
-        background-position: 0px -586px;
-    }
-    .advantages-icons .feature-img.mobile {
-        background-position: 8px -689px;
-        height: 158px!important;
-    }
-    .advantages-icons .feature-img.time {
-        background-position: -144px 0px;
-        height: 130px!important;
-    }
+    /*.advantages-icons .feature-img.clock {*/
+        /*background-position: -7px -132px;*/
+    /*}*/
+    /*.advantages-icons .feature-img.map {*/
+        /*background-position: -5px -251px;*/
+    /*}*/
+    /*.advantages-icons .feature-img.checked {*/
+        /*background-position: 0px -586px;*/
+    /*}*/
+    /*.advantages-icons .feature-img.mobile {*/
+        /*background-position: 8px -689px;*/
+        /*height: 158px!important;*/
+    /*}*/
+    /*.advantages-icons .feature-img.time {*/
+        /*background-position: -144px 0px;*/
+        /*height: 130px!important;*/
+    /*}*/
     .ecosystem-padbot{
         padding-bottom:50px;
     }

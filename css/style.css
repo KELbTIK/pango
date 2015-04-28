@@ -548,13 +548,13 @@ body{
     background-position: 0px -171px;
 }
 .icon-light{
-    background-position: 0px -214px;
+    background-position: 0px -212px;
 }
 .icon-off{
-    background-position: 0px -257px;
+    background-position: 0px -296px;
 }
 .icon-lots{
-    background-position: 0px -299px;
+    background-position: 0px -253px;
 }
 .icon-shop{
     background-position: 0px -342px;
@@ -731,48 +731,78 @@ body{
 .feature-img{
     background-image: url(../img/eco.png);
     background-repeat: no-repeat;
-    background-size: 205px 688px;
+    background-size: 280px 688px;
     width: 80px;
     height: 80px;
     margin: 0 auto;
 }
 .feature-img.mobile{
-    width: 66px;
-    height: 122px;
+    width: 97px;
+    height: 106px;
 }
 .feature-img.access{
     height: 101px;
-    background-position: 4px 0px;
+    background-position: -9px 0px;
     margin-left: 38px;
     margin-top: -22px;
 }
-.feature-img.clock{
-    background-position: -5px -108px;
-    width: 81px;
-    height: 81px;
-}   
-.feature-img.map{
-    background-position: -5px -206px;
-    width: 81px;
-    height: 81px;
+.feature-img.access-private{
+    height: 110px;
+    background-position: -10px 3px;
+    margin-left: 38px;
+    margin-top: -17px;
+}
+.feature-img.clock {
+    background-position: -9px -109px;
+    width: 87px;
+    height: 94px;
+}
+.feature-img.map {
+    background-position: -9px -206px;
+    width: 87px;
+    height: 94px;
+}
+.feature-img.car-icon {
+    background-position: -114px -536px;
+    width: 271px;
+    height: 94px;
 }
 .feature-img.gas{
-    background-position: 0px -302px;
+    background-position: -6px -297px;
 }
 .feature-img.coupons{
-    background-position: -4px -395px;
+    background-position: -13px -387px;
 }
 .feature-img.checked{
-    background-position: 0px -477px;
+    background-position: -10px -473px;
+}
+.feature-img.mobile-gps{
+    background-position: -110px -420px;
+    height: 96px;
+}
+.feature-img.checked-on{
+    background-position: -109px -110px;
+    height: 92px;
 }
 .feature-img.mobile{
-    background-position: -1px -570px;
-    margin-top: -40px;
+    background-position: -3px -570px;
+    margin-top: -10px;
 }
-.feature-img.time{
-    background-position: -116px 0px;
+.feature-img.p-z{
+    background-position: -110px -303px;
+    margin-top: -10px;
+    height: 102px;
+}
+.feature-img.time {
+    background-position: -99px 0px;
     width: 90px;
-    height: 100px;
+    height: 112px;
+    margin-top: -18px;
+}
+.feature-img.dollar {
+    background-position: -105px -190px;
+    width: 90px;
+    height: 112px;
     margin-top: -18px;
 }
 .ecosystem .container{
@@ -865,6 +895,23 @@ body{
     }
 }
 @media (max-width: 767px){
+    .feature-img.access-private {
+        height: 110px;
+        background-position: 6px 3px;
+        /* margin-left: 93px; */
+        margin-top: -17px;
+    }
+    .feature-img.car-icon {
+        background-position: -106px -536px;
+        width: 161px;
+        height: 94px;
+    }
+    .feature-img.dollar {
+        background-position: -110px -190px;
+        width: 90px;
+        height: 112px;
+        margin-top: -18px;
+    }
     .eco-descr img{
         display: none;
     }
@@ -876,7 +923,7 @@ body{
     }
     .ecosystem{
         background-size: 100%;
-        padding-bottom: 164px;
+        padding-bottom: 50px;
     }
     .ecosystem .container{
         width: 100%;
@@ -1589,7 +1636,7 @@ body{
         background-position: 0px -297px;
     }
     .icon-off {
-        background-position: 0px -357px;
+        background-position: 0px -359px;
     }
     .icon-lots {
         background-position: 0px -417px;
@@ -1603,30 +1650,34 @@ body{
     .advantages{
         padding-top: 68px;
     }
-    .advantages-icons .feature-img{
-        width: 165px!important;
-        height: 165px!important;
-        background-size: 385px auto;
-    }
-    .advantages-icons .feature-img.clock {
-        background-position: -5px -198px;
+    /*.advantages-icons .feature-img{*/
+        /*width: 165px!important;*/
+        /*height: 165px!important;*/
+        /*background-size: 385px auto;*/
+    /*}*/
+    a {
+        background-position: -8px -108px;
     }
     .advantages-icons .feature-img.map {
-        background-position: -5px -376px;
+        background-position: -8px -203px;
     }
     .advantages-icons .feature-img.checked {
         background-position: 0px -896px;
     }
     .advantages-icons .feature-img.mobile {
-        background-position: -1px -1079px;
-        height: 210px!important;
+        background-position: -2px -559px;
+        height: 129px!important;
     }
     .advantages-icons .feature-img.time {
-        background-position: -216px 0px;
-        height: 190px!important;
+        background-position: -97px 18px;
+        height: 130px!important;
+    }
+    .feature-img.checked-on {
+        background-position: -99px -110px;
+        height: 92px;
     }
     .advantages-icons{
-        margin: 238px 0 0px;
+        margin: 60px 0 0px;
     }
     .advantages-icons .feature-descr{
         margin-bottom: 80px;
