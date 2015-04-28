@@ -1916,7 +1916,7 @@ body{
         box-shadow: none;
     }
     .partner-top-slider .buildings-bg{
-        bottom: 46px;
+        bottom: 73px;
     }
 }
 @media (max-width: 767px){
@@ -1930,7 +1930,7 @@ body{
         padding-top: 265px;
     }
     .partner-top-slider .buildings-bg {
-         bottom: -110px;
+         bottom: -86px;
     }
     .cooperate .icon{
         width: 124px;
@@ -2441,12 +2441,17 @@ body{
 		min-height: 0;
 	}
 	.partner-top-slider .buildings-bg{
-		bottom: -126px;
+		bottom: -96px;
 	}
 	.img-partner{
 		margin-bottom: 0;
 		margin-top: -20px;
 	}
+}
+@media (max-width: 500px){
+    .partner-top-slider .buildings-bg{
+        bottom: -110px;
+    }
 }
 @media (max-width: 400px){
 	.top-bg-1, .top-bg-2, .top-bg-3, .top-bg-4{
