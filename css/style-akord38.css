@@ -1360,7 +1360,7 @@
 
     .slider-1, .slider-2, .slider-3, .slider-4{
         height: 450px!important;
-
+        background-position: 100% 0%;
     }
     .collapse-content {
         font-size: 14px;
@@ -1391,6 +1391,12 @@
     }
     .buildings-bg-correct{
         bottom: -136px!important;
+    }
+    .media-slider-block iframe{
+        width: 95%;
+        height: 95%;
+        left: 2.5%;
+        top: 2.5%;
     }
 }
 @media(max-width:1200px){

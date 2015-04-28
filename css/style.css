@@ -1791,13 +1791,13 @@ body{
     max-height: 463px;
     position: relative;
     z-index: 99;
-    margin-bottom: -52px;
+    margin-bottom: -72px;
 }
 .partner-top-slider .buildings-bg{
     bottom: 0;
 }
 .partner-top-slider{
-    padding-top: 165px;
+    padding-top: 373px;
     position: relative;
     background: rgb(203,219,232); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(203,219,232,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
@@ -1925,6 +1925,9 @@ body{
     }
     .partner-text h5{
         font-size: 28px;
+    }
+    .partner-top-slider{
+        padding-top: 265px;
     }
     .partner-top-slider .buildings-bg {
          bottom: 33px;
