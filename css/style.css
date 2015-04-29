@@ -551,10 +551,10 @@ body{
     background-position: 0px -212px;
 }
 .icon-off{
-    background-position: 0px -296px;
+    background-position: 0px -298px;
 }
 .icon-lots{
-    background-position: 0px -253px;
+    background-position: 0px -255px;
 }
 .icon-shop{
     background-position: 0px -342px;
@@ -749,7 +749,7 @@ body{
 .feature-img.access-private{
     height: 110px;
     background-position: -10px 3px;
-    margin-left: 38px;
+    /*margin-left: 38px;*/
     margin-top: -17px;
 }
 .feature-img.clock {
@@ -1636,7 +1636,7 @@ body{
         background-position: 0px -297px;
     }
     .icon-off {
-        background-position: 0px -359px;
+        background-position: 0px -357px;
     }
     .icon-lots {
         background-position: 0px -417px;
@@ -1967,7 +1967,7 @@ body{
         box-shadow: none;
     }
     .partner-top-slider .buildings-bg{
-        bottom: 73px;
+        bottom: 62px;
     }
 }
 @media (max-width: 767px){
@@ -2492,7 +2492,7 @@ body{
 		min-height: 0;
 	}
 	.partner-top-slider .buildings-bg{
-		bottom: -96px;
+		bottom: -105px;
 	}
 	.img-partner{
 		margin-bottom: 0;
@@ -2501,7 +2501,7 @@ body{
 }
 @media (max-width: 500px){
     .partner-top-slider .buildings-bg{
-        bottom: -110px;
+        bottom: -120px;
     }
 }
 @media (max-width: 400px){
